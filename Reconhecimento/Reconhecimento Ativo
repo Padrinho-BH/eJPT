@@ -24,3 +24,8 @@ Telnet:
 - O principal uso do telnet para reconhecimento é emular um cliente para descobrir qual protocolo ou software está rodando em uma porta específica e quais respostas ele fornece.
 
 ex: telnet <ip adress> 23
+
+Netcat:
+- É uma utilidade de rede versátil que pode ser usada para diversos propósitos, incluindo varredura de portas, transferência de dados e estabelecimento de conexões de rede arbitrárias.
+
+ex: nc <ip address> <port> 
