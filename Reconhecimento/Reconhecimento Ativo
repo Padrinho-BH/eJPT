@@ -1,0 +1,26 @@
+Navegador Web:
+
+- FoxyProxy (extensão) permite que você altere rapidamente o servidor proxy que você está usando para acessar o site de destino. Pode ser utilizado para mascarar o IP e acessar conteúdos de outros países (a depender do proxy configurado).
+
+ - User-Agent Switcher e Manager (extensão) dá-lhe a capacidade de fingir estar acessando a página da web a partir de um sistema operacional diferente ou navegador da web diferente.
+
+- O Wappalyzer (extensão) fornece insights sobre as tecnologias usadas nos sites visitados.
+
+Ping:
+- Pode ser utilizado para verificar a disponibilidade de um host ou domínio.
+- "ping -h" para obter ajuda sobre os comandos "ping" no Windows.
+- "Man ping" para obter ajuda sobre os comandos "ping" no Linux.
+
+ex: ping <ip adress>
+ex: ping -c 5 <ip adress> // cinco pacotes ICMP para o endereço (linux) | No Windows o ping se limita a envio de 4 pacotes.
+
+
+Traceroute (linux) e tracert (windows):
+- É útil, pois indica o número de saltos (roteadores) entre o seu sistema e o host alvo.
+
+ex: traceroute <ip address>
+
+Telnet:
+- O principal uso do telnet para reconhecimento é emular um cliente para descobrir qual protocolo ou software está rodando em uma porta específica e quais respostas ele fornece.
+
+ex: telnet <ip adress> 23
